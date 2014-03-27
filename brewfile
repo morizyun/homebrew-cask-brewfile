@@ -1,6 +1,7 @@
 tap phinze/homebrew-cask || true
 tap homebrew/versions|| true
 tap sanemat/font || true
+tap homebrew/science || true
 update || true
 
 install brew-cask || true
@@ -9,23 +10,26 @@ install gibo || true
 install wget || true
 install autojump || true
 
-install ricty
+install r || true
+install ricty || true
 install ruby-build || true
 install rbenv || true
 install heroku-toolbelt || true
 
 install mysql || true
 
+
 cask install appcleaner || true
 cask install alfred || true
 cask install colors || true
 cask install dash || true
 cask install dropbox || true
-cask isntall evernote || true
+cask install evernote || true
 cask install flux || true
 cask install google-chrome || true
+cask install google-japanese-ime || true
 cask install iterm2 || true
-cask install phpstorm || true
+cask install pycharm || true
 cask install rstudio || true
 cask install rubymine || true
 cask install sourcetree || true
@@ -33,4 +37,4 @@ cask install sublime-text || true
 cask install transmit || true
 cask install virtualbox || true
 cask install vagrant || true
-cask install google-japanese-ime || true
+cask install xquartz || true
