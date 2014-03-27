@@ -1,5 +1,6 @@
 tap phinze/homebrew-cask || true
 tap homebrew/versions|| true
+tap sanemat/font || true
 update || true
 
 install brew-cask || true
@@ -8,6 +9,7 @@ install gibo || true
 install wget || true
 install autojump || true
 
+install ricty
 install ruby-build || true
 install rbenv || true
 install heroku-toolbelt || true
